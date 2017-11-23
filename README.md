@@ -8,7 +8,7 @@ Run 'npm start'
 
 navigate to http://localhost:8080/ in a browser...
 
-## How to use your solution:
+## How this solution works:
 
 On initial page load all categories are displayed in a navigation area at the top the the page as category nav links, and all products are displayed in the product list below as button elements at the bottom the the page.
 
@@ -20,10 +20,7 @@ The App is using react-router which allows the user to navigates with the back a
 
 When a product element name is clicked it becomes bold and toggles the visibility of the description, ie. when clicked it shows the product description below the product name. When clicked again the description is removed. Multiple descriptions can be shown at the same time.
 
-
-
-
-## Explain how your solution uses the components you built:
+## How does this solution use the created react components:
 
 The App is using the 2 provided API endpoints to fetch the Category and Products data via ajax and set the various state values of the ProductList.
 
