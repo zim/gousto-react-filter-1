@@ -2,9 +2,13 @@
 
 Clone the repository
 
-Run 'npm install'
+Run the following commands in the Terminal
 
-Run 'npm start'
+```sh
+cd gousto-react-filter-1
+npm install
+npm start
+```
 
 navigate to http://localhost:8080/ in a browser...
 
