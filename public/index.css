@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Karla|Open+Sans|Oswald|PT+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav{
+  display: block;
+  margin: 0px 0px 6px 0px;
+  padding: 0px 0px 6px 0px;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    
+    font-size:1.8em;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+p,h1,h2,h3,h4,h5{
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+h1{
+    display: block;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 16px 0px;
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+h2{
+    display: block;
+    margin: 0px 0px 6px 0px;
+    padding: 0px 0px 6px 0px;
+    font-size: 2em;
+}
+h3{
+    display: block;
+    padding: 0px 0px 6px 0px;
+    font-size: 1.6em;
+}
+
+p{
+    padding: 0px 0px 1.2em 0px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+label{
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    
+}
+ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 0px 6px 0px;
+    font-size: 1.2em;
+}
+ul.list-block li{
+    display: block;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.active {
+  /* color: green; */
+}
+
+.app {
+  /* text-align: center; */
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 5% 10%;
+  width: 80%;
+}
+.header p{
+    display: block;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a.btnCat{
+  background-color: #fbf8c6;
+  position: relative;
+  display: inline-block;
+  margin: 0px 6px 6px 0px;
+  padding: 6px 6px 6px 6px;
+  
+  outline: none;
+}
+
+.product-item{
+  position: relative;
+  display: block;
+}
+
+a.btnCat.active{
+  background-color: #fef200;
+  font-weight: bold;
+}
+
+button.btnProd{
+  background-color: #f6dbbd;
+  position: relative;
+  display: inline-block;
+  margin: 0px 6px 6px 0px;
+  padding: 6px 6px 6px 6px;
+  font-size: 1em;
+  outline: none; 
+}
+button.btnProd.active{
+  background-color: #f8931f;
+  font-weight: bold;
+}
+
+input{
+  position: relative;
+  display: block;
+  margin: 0px 0px 6px 0px;
+  padding: 6px 6px 6px 6px;
+  font-size: 1em;
+}
