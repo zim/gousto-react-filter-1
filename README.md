@@ -1,14 +1,14 @@
 # GOUSTO FRONTEND API TEST
 
-Navigated to the folder 'gousto-react-filter-app' in the terminal.
+Clone the repository
 
 Run 'npm install'
 
 Run 'npm start'
 
-navigate to http://localhost:8080/ in a browseer...
+navigate to http://localhost:8080/ in a browser...
 
-How to use your solution:
+## How to use your solution:
 
 On initial page load all categories are displayed in a navigation area at the top the the page as category nav links, and all products are displayed in the product list below as button elements at the bottom the the page.
 
@@ -23,7 +23,7 @@ When a product element name is clicked it becomes bold and toggles the visibilit
 
 
 
-Explain how your solution uses the components you built:
+## Explain how your solution uses the components you built:
 
 The App is using the 2 provided API endpoints to fetch the Category and Products data via ajax and set the various state values of the ProductList.
 
@@ -45,11 +45,4 @@ The ProductList component uses the ProducItem component to display the items.
 Creating a ProductItem component makes it easy to set and pass product items variables via props to the components, also helping us to show and hide the products description by changing the component display state on click event of ProductItem component.
 
 
-
-
-
-
-
-
-Anything else you think is relevant to your solution 
 
