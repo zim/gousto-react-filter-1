@@ -181,6 +181,9 @@ body{
 }
 .header p{
     display: block;
+    font-size: 1.4em;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 20px 0px;
 }
 
 .App-logo {
@@ -204,7 +207,7 @@ body{
 }
 
 a.btnCat{
-  background-color: #fbf8c6;
+  background-color: #f7ee6d;
   position: relative;
   display: inline-block;
   margin: 0px 6px 6px 0px;
@@ -219,12 +222,12 @@ a.btnCat{
 }
 
 a.btnCat.active{
-  background-color: #fef200;
+  background-color: #fecb00;
   font-weight: bold;
 }
 
 button.btnProd{
-  background-color: #f6dbbd;
+  background-color: #7df5bb;
   position: relative;
   display: inline-block;
   margin: 0px 6px 6px 0px;
@@ -233,7 +236,7 @@ button.btnProd{
   outline: none; 
 }
 button.btnProd.active{
-  background-color: #f8931f;
+  background-color: #44fc06;
   font-weight: bold;
 }
 
